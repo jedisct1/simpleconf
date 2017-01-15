@@ -85,7 +85,7 @@ the following:
 #################################################
 
 # Change this to your name
-Name Robert
+Name Johnny Doe
 
 # Change to "yes" for a (visual) bell effect
 Bell no
@@ -95,12 +95,12 @@ The parser is quite tolerant and the following configuration files would
 work equally well:
 
 ```
-name = Robert
+name = Johnny Doe
 bell = off
 ```
 
 ```
-name: Robert
+name: Johnny Doe
 bell: false
 ```
 
