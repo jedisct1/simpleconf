@@ -259,9 +259,9 @@ arbitrary pointer, that will be conveniently available in the handler.
 Real-world examples
 -------------------
 
-* [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy)
-[example configuration file](https://github.com/jedisct1/dnscrypt-proxy.conf) and its
+* [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy):
+[example configuration file](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-proxy.conf) and its
 [SimpleConf definition](https://github.com/jedisct1/pure-ftpd/blob/master/src/simpleconf_ftpd.h).
-* [pure-ftpd](https://github.com/jedisct1/pure-ftpd)
-[example configuration file](https://github.com/jedisct1/pure-ftpd.conf) and its
+* [pure-ftpd](https://github.com/jedisct1/pure-ftpd):
+[example configuration file](https://github.com/jedisct1/pure-ftpd/blob/master/pure-ftpd.conf.in) and its
 [SimpleConf definition](https://github.com/jedisct1/dnscrypt-proxy/blob/master/src/proxy/simpleconf_dnscrypt.h).
