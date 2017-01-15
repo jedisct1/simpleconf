@@ -9,7 +9,7 @@ command-line application.
 3. Done.
 
 The grammar is defined at runtime, so that application plugins can
-register whatever they want.
+register whatever they want in addition to a base set of keywords.
 
 SimpleConf is the configuration file parser used in
 [pure-ftpd](https://github.com/jedisct1/pure-ftpd) and
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
         { "Bell? <bool>",  "--bell"}
     };
     sc_build_command_line_from_file("hello.conf", NULL, sc_defs, 2,
-        argv[0], &argc, &argv);
+                                    argv[0], &argc, &argv);
     parse_options(argc, argv);
     return 0;
 }
