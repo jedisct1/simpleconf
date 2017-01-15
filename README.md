@@ -260,8 +260,8 @@ Real-world examples
 -------------------
 
 * [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy):
-[example configuration file](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-proxy.conf) and its
-[SimpleConf definition](https://github.com/jedisct1/pure-ftpd/blob/master/src/simpleconf_ftpd.h).
+[SimpleConf definition](https://github.com/jedisct1/pure-ftpd/blob/master/src/simpleconf_ftpd.h) and
+[example configuration file](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-proxy.conf)
 * [pure-ftpd](https://github.com/jedisct1/pure-ftpd):
-[example configuration file](https://github.com/jedisct1/pure-ftpd/blob/master/pure-ftpd.conf.in) and its
-[SimpleConf definition](https://github.com/jedisct1/dnscrypt-proxy/blob/master/src/proxy/simpleconf_dnscrypt.h).
+[SimpleConf definition](https://github.com/jedisct1/dnscrypt-proxy/blob/master/src/proxy/simpleconf_dnscrypt.h) and
+[example configuration file](https://github.com/jedisct1/pure-ftpd/blob/master/pure-ftpd.conf.in)
