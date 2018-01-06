@@ -12,8 +12,7 @@ The grammar is defined at runtime, so that application plugins can
 register whatever they want in addition to a base set of keywords.
 
 SimpleConf is the configuration file parser used in
-[pure-ftpd](https://github.com/jedisct1/pure-ftpd) and
-[dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy).
+[pure-ftpd](https://github.com/jedisct1/pure-ftpd).
 
 It is a trivial piece of code, but it is very generic and can easily be reused.
 Hence this standalone-version, in case it could be useful to other
@@ -259,9 +258,6 @@ arbitrary pointer, that will be conveniently available in the handler.
 Real-world examples
 -------------------
 
-* [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy):
-[SimpleConf definition](https://github.com/jedisct1/pure-ftpd/blob/master/src/simpleconf_ftpd.h) and
-[example configuration file](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-proxy.conf)
 * [pure-ftpd](https://github.com/jedisct1/pure-ftpd):
 [SimpleConf definition](https://github.com/jedisct1/dnscrypt-proxy/blob/master/src/proxy/simpleconf_dnscrypt.h) and
 [example configuration file](https://github.com/jedisct1/pure-ftpd/blob/master/pure-ftpd.conf.in)
