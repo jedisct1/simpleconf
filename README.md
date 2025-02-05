@@ -130,8 +130,8 @@ Patterns can include character classes:
 * `<alnum>`: matches one of more alphanumberic characters
 * `<digits>`: matches one or more digits
 * `<xdigits>`: matches one or more hex digits
-* `<nospace>`: matches one or more characters that are not whitespaces
-* `<any>`: matches everything except whitespaces, as well as quoted strings that can include whitespaces. Given the `kiwi fruit` input, this would only match `kiwi`. Given the `"kiwi fruit"` input, this would match `kiwi fruit`.
+* `<nospace>`: matches one or more characters that are not whitespaces; the string can optionally be quoted to allow delimiters.
+* `<any>`: matches everything except whitespaces, as well as quoted strings that can include whitespaces and delimiters. Given the `kiwi fruit` input, this would only match `kiwi`. Given the `"kiwi fruit"` input, this would match `kiwi fruit`.
 * `<any*>`: matches everything until the end of the line, including whitespaces, without requiring quotes.
 * `<bool>`: matches `yes`, `on`, `true`, `1`, `no`, `off`, `false` and `0`.
 
